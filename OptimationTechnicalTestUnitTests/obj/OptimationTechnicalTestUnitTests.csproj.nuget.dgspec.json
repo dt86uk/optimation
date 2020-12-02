@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danie\\source\\repos\\OptimationTechnicalTest\\OptimationTechnicalTestUnitTests\\OptimationTechnicalTestUnitTests.csproj": {}
+    "C:\\Users\\danie\\source\\repos\\optimation\\OptimationTechnicalTestUnitTests\\OptimationTechnicalTestUnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danie\\source\\repos\\OptimationTechnicalTest\\OptimationTechnicalTestUnitTests\\OptimationTechnicalTestUnitTests.csproj": {
+    "C:\\Users\\danie\\source\\repos\\optimation\\OptimationTechnicalTestUnitTests\\OptimationTechnicalTestUnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danie\\source\\repos\\OptimationTechnicalTest\\OptimationTechnicalTestUnitTests\\OptimationTechnicalTestUnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\source\\repos\\optimation\\OptimationTechnicalTestUnitTests\\OptimationTechnicalTestUnitTests.csproj",
         "projectName": "OptimationTechnicalTestUnitTests",
-        "projectPath": "C:\\Users\\danie\\source\\repos\\OptimationTechnicalTest\\OptimationTechnicalTestUnitTests\\OptimationTechnicalTestUnitTests.csproj",
+        "projectPath": "C:\\Users\\danie\\source\\repos\\optimation\\OptimationTechnicalTestUnitTests\\OptimationTechnicalTestUnitTests.csproj",
         "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danie\\source\\repos\\OptimationTechnicalTest\\OptimationTechnicalTestUnitTests\\obj\\",
+        "outputPath": "C:\\Users\\danie\\source\\repos\\optimation\\OptimationTechnicalTestUnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\danie\\source\\repos\\OptimationTechnicalTest\\OptimationTechnicalTest\\OptimationTechnicalTest.csproj": {
-                "projectPath": "C:\\Users\\danie\\source\\repos\\OptimationTechnicalTest\\OptimationTechnicalTest\\OptimationTechnicalTest.csproj"
+              "C:\\Users\\danie\\source\\repos\\optimation\\OptimationTechnicalTest\\OptimationTechnicalTest.csproj": {
+                "projectPath": "C:\\Users\\danie\\source\\repos\\optimation\\OptimationTechnicalTest\\OptimationTechnicalTest.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\danie\\source\\repos\\OptimationTechnicalTest\\OptimationTechnicalTest\\OptimationTechnicalTest.csproj": {
+    "C:\\Users\\danie\\source\\repos\\optimation\\OptimationTechnicalTest\\OptimationTechnicalTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danie\\source\\repos\\OptimationTechnicalTest\\OptimationTechnicalTest\\OptimationTechnicalTest.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\source\\repos\\optimation\\OptimationTechnicalTest\\OptimationTechnicalTest.csproj",
         "projectName": "OptimationTechnicalTest",
-        "projectPath": "C:\\Users\\danie\\source\\repos\\OptimationTechnicalTest\\OptimationTechnicalTest\\OptimationTechnicalTest.csproj",
+        "projectPath": "C:\\Users\\danie\\source\\repos\\optimation\\OptimationTechnicalTest\\OptimationTechnicalTest.csproj",
         "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danie\\source\\repos\\OptimationTechnicalTest\\OptimationTechnicalTest\\obj\\",
+        "outputPath": "C:\\Users\\danie\\source\\repos\\optimation\\OptimationTechnicalTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

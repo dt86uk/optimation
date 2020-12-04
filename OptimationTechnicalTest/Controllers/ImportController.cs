@@ -14,13 +14,25 @@ namespace OptimationTechnicalTest.Controllers
             importService = inImportService;
         }
 
-        // POST api/values
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok();
+        }
+
         [HttpPost]
-        public void Post([FromBody] string emailBody)
+        public IActionResult Post([FromBody] string emailBody)
         {
             var rtnModel = importService.ProcessText(emailBody);
 
-            //return rtnModel.IsRequestSuccessful ? Ok(rtnModel) : BadRequest(rtnModel);
+            if (rtnModel.IsRequestSuccessful)
+            {
+                return Ok(rtnModel);
+            }
+            else
+            {
+                return BadRequest(rtnModel);
+            }
         }
     }
 }

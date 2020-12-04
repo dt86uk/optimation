@@ -22,6 +22,7 @@ namespace OptimationTechnicalTest
             //services
             services.AddTransient<IImportService, ImportService>();
             services.AddTransient<ITextValidationService, TextValidationService>();
+            services.AddTransient<IXmlService, XmlService>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

@@ -82,7 +82,7 @@ namespace OptimationTechnicalTestUnitTests.BusinessLogic.Service
         public void GetOpeningBracketPositionTest_IsTrue()
         {
             //arrange
-            string testText = "Hi Somebody, here is the info required <test>hello world</test>";
+            string testText = "Hi somebody, here is my expenses claim <expense><total>1024.01</total></expense>. Thanks!";
             int firstOpeningBracket = testText.IndexOf('<');
 
             //act
@@ -94,34 +94,45 @@ namespace OptimationTechnicalTestUnitTests.BusinessLogic.Service
         }
 
         [TestMethod]
-        public void GetClosingBracketPositionTest_IsTrue()
-        {
-            //arrange
-            string testText = "Hi Somebody, here is the info required <test>hello world</test>";
-            int firstClosingBracket = testText.IndexOf('<');
-
-            //act
-            var result = textValidationService.GetOpeningBracketPosition(testText);
-
-            //assert
-            Assert.IsTrue(result > -1); //represents index of char not found
-            Assert.IsTrue(result == firstClosingBracket);
-        }
-
-        [TestMethod]
         public void GetOpeningBracketPositionTest_IsFalse()
         {
             //arrange
             string testText1 = string.Empty;
-            string testText2 = "This does not contain a bracket";
-
+            
             //act
-            var result1 = textValidationService.GetOpeningBracketPosition(testText1);
-            var result2 = textValidationService.GetOpeningBracketPosition(testText2);
+            var result = textValidationService.GetOpeningBracketPosition(testText1);
 
             //assert
-            Assert.IsTrue(result1 == -1); //represents index of char not found
-            Assert.IsTrue(result2 == -1);
+            Assert.IsTrue(result == -1); //represents index of char not found
+        }
+
+        [TestMethod]
+        public void GetClosingBracketPositionTest_IsTrue()
+        {
+            //arrange
+            string testText = "Hi somebody, here is my expenses claim <expense><total>1024.01</total></expense>. Thanks!";
+            int firstClosingBracket = testText.IndexOf('>');
+
+            //act
+            var result = textValidationService.GetClosingBracketPosition(testText);
+
+            //assert
+            Assert.IsTrue(result > -1); //represents index of char not found
+            Assert.IsTrue(result != -1);
+            Assert.IsTrue(result == firstClosingBracket);
+        }
+
+        [TestMethod]
+        public void GetClosingBracketPositionTest_IsFalse()
+        {
+            //arrange
+            string testText = "Hi somebody, here is my expenses claim. Total = 1024.01. Thanks!";
+
+            //act
+            var result = textValidationService.GetClosingBracketPosition(testText);
+
+            //assert
+            Assert.IsTrue(result == -1); //represents index of char not found
         }
     }
 }

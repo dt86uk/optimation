@@ -1,9 +1,9 @@
-﻿using OptimationTechnicalTest.Models;
+﻿using OptimationTechnicalTest.Models.API;
 
 namespace OptimationTechnicalTest.BusinessLogic
 {
     public interface IImportService
     {
-        BaseApiResponseModel ProcessText(string inText);
+        ApiResponseModel ProcessText(string inText);
     }
 }

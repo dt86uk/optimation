@@ -1,0 +1,17 @@
+C:\Users\danie\source\repos\optimation\OptimationTechnicalTest\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\danie\source\repos\optimation\OptimationTechnicalTest\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\danie\source\repos\optimation\OptimationTechnicalTest\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\danie\source\repos\optimation\OptimationTechnicalTest\bin\Debug\netcoreapp2.1\OptimationTechnicalTest.deps.json
+C:\Users\danie\source\repos\optimation\OptimationTechnicalTest\bin\Debug\netcoreapp2.1\OptimationTechnicalTest.runtimeconfig.json
+C:\Users\danie\source\repos\optimation\OptimationTechnicalTest\bin\Debug\netcoreapp2.1\OptimationTechnicalTest.runtimeconfig.dev.json
+C:\Users\danie\source\repos\optimation\OptimationTechnicalTest\bin\Debug\netcoreapp2.1\OptimationTechnicalTest.dll
+C:\Users\danie\source\repos\optimation\OptimationTechnicalTest\bin\Debug\netcoreapp2.1\OptimationTechnicalTest.pdb
+C:\Users\danie\source\repos\optimation\OptimationTechnicalTest\obj\Debug\netcoreapp2.1\OptimationTechnicalTest.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\optimation\OptimationTechnicalTest\obj\Debug\netcoreapp2.1\OptimationTechnicalTest.AssemblyInfo.cs
+C:\Users\danie\source\repos\optimation\OptimationTechnicalTest\obj\Debug\netcoreapp2.1\OptimationTechnicalTest.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\optimation\OptimationTechnicalTest\obj\Debug\netcoreapp2.1\OptimationTechnicalTest.RazorAssemblyInfo.cache
+C:\Users\danie\source\repos\optimation\OptimationTechnicalTest\obj\Debug\netcoreapp2.1\OptimationTechnicalTest.RazorAssemblyInfo.cs
+C:\Users\danie\source\repos\optimation\OptimationTechnicalTest\obj\Debug\netcoreapp2.1\OptimationTechnicalTest.RazorTargetAssemblyInfo.cache
+C:\Users\danie\source\repos\optimation\OptimationTechnicalTest\obj\Debug\netcoreapp2.1\OptimationTechnicalTest.dll
+C:\Users\danie\source\repos\optimation\OptimationTechnicalTest\obj\Debug\netcoreapp2.1\OptimationTechnicalTest.pdb
+C:\Users\danie\source\repos\optimation\OptimationTechnicalTest\obj\Debug\netcoreapp2.1\OptimationTechnicalTest.genruntimeconfig.cache

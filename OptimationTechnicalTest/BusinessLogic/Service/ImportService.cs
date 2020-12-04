@@ -18,7 +18,18 @@ namespace OptimationTechnicalTest.BusinessLogic
             var responseModel = new ApiResponseModel();
 
             int firstElementIndexStart = textValidationService.GetOpeningBracketPosition(inText);
+            if (firstElementIndexStart == -1)
+            {
+                responseModel.ErrorMessage = "No opening XML Element found.";
+                return responseModel;
+            }
+
             int firstElementIndexEnd = textValidationService.GetClosingBracketPosition(inText);
+            if (firstElementIndexEnd == -1)
+            {
+                responseModel.ErrorMessage = "No closing XML Element found.";
+                return responseModel;
+            }
 
             string firstElementContent = inText.Substring(firstElementIndexStart + 1, (firstElementIndexEnd - firstElementIndexStart - 1));
 

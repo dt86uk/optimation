@@ -17,7 +17,7 @@ namespace OptimationTechnicalTest.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok();
+            return Ok("Success!");
         }
 
         [HttpPost]
